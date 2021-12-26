@@ -1,0 +1,29 @@
+stages:
+  # - build
+  - deploy
+
+# generate-composer:
+#   image: composer:latest
+#   stage: build
+#   script:
+#     - composer update --ignore-platform-reqs
+#   artifacts:
+#     expire_in: 30 mins
+#     paths:
+#       - composer.lock
+#   only:
+#     - master
+
+deploy-job:
+  image: node:12.22.5-buster
+  stage: deploy
+  script:
+    # Install deployment dependencies
+    - apt update -qy
+    - apt install -y ruby-dev
+    - gem install dpl
+
+    # Push to Heroku
+    - dpl --provider=heroku --app=wypozyczalnia-pwco --api-key=$HEROKU_API_KEY --skip_cleanup
+  only:
+    - master
