@@ -1,6 +1,6 @@
 <?php
 //stopka
-$tworca = "Powered by Jakub Bryniarski";
+$tworca = "Powered by Jakub Bryniarski, Mateusz Przewoźnik";
 ?>
 <div class="jumbotron text-center" style="margin-bottom:0">
 
