@@ -1,12 +1,31 @@
 name: Actions
 on: [push]
 jobs:
-  Deploy:
+
+  Build-backend:
     runs-on: ubuntu-latest
     if: contains(github.ref, 'main')
     steps:
       - uses: actions/checkout@v2
+      - run : composer update --ignore-platform-reqs
+      - name: Archive
+        uses: actions/upload-artifact@v2
+        with:
+          name: composer
+          path: |
+           composer.lock
+
+  Deploy:
+    needs: [Build-backend]
+    runs-on: ubuntu-latest
+    if: contains(github.ref, 'main')
+    steps:
+      - uses: actions/checkout@v2
+      - name: Download all workflow run artifacts
+        uses: actions/download-artifact@v2
       -  run : sudo apt update -qy
       -  run : sudo apt install -y ruby-dev
       -  run : sudo gem install dpl
-      -  run : sudo dpl --provider=heroku --app=wypozyczalnia-pwco --api-key=${{ secrets.HEROKU_API_KEY }} --skip_cleanup
+      -  run : | 
+           cp composer/composer.lock .
+           sudo dpl --provider=heroku --app=wypozyczalnia-pwco --api-key=${{ secrets.HEROKU_API_KEY }} --skip_cleanup
