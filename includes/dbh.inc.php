@@ -1,5 +1,5 @@
 <?php
-    $db = new MongoDB\Driver\Manager("mongodb://localhost:27017");
+    $db = new MongoDB\Driver\Manager("mongodb+srv://".$_ENV['MONGODB_USER'].":".$_ENV['MONGODB_PASSWORD']."@cluster0.gqf0q.mongodb.net");
     $query = new MongoDB\Driver\Query([]);
     
     $filmy = $db -> executeQuery("filmy.filmy", $query);
