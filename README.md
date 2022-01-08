@@ -42,14 +42,14 @@ data i godzina planowanego zwrotu, data i godzina faktycznego zwrotu)
 ## Installation
 
 ```bash
-$ npm install
+$ php composer-setup.php --install-dir=bin --filename=composer
 ```
 
 ## Running the app
 
 ```bash
 # development
-$ npm run start
+$ git clone
 
 # watch mode
 $ npm run start:dev
@@ -77,9 +77,9 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [Mateusz Przewoźnik](https://kamilmysliwiec.com)
+- Author - [Jakub Bryniarski](https://nestjs.com/)
+- PHP-Source - [@php](https://www.php.net/)
 
 ## License
 
