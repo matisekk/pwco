@@ -77,9 +77,8 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Mateusz Przewoźnik](https://kamilmysliwiec.com)
-- Author - [Jakub Bryniarski](https://nestjs.com/)
-- PHP-Source - [@php](https://www.php.net/)
+- Author - [Mateusz Przewoźnik]
+- Author - [Jakub Bryniarski]
 
 ## License
 
