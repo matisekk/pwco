@@ -4,6 +4,8 @@
 </p>
 
 ## Description
+## Cel Projektu
+- Celem projektu jest umożliwienie wypożyczania ulubionych filmów w internecie.
 
 Projekt wypożyczalni. Zasady działania:
 - istnieją dwa rodzaje kont: użytkownicy oraz administrator,
