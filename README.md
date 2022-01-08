@@ -46,18 +46,14 @@ $ https://wypozyczalnia-pwco.herokuapp.com/
 # unit tests
 $ ./wypozyczalnia/bin/phpunit test
 # alternative way to tests
-$ ./wypozyczalnia/bin/phpunit --testdox tests
+$ ./wypozyczalnia/bin/phpunit --testdox test
 ```
 
 ## Support
 
-PHP SUPPORT. If you'd like to join them, please [read more here] https://www.php.net/support.php.
+PHP SUPPORT. If you'd like to join them, please https://www.php.net/support.php.
 
 ## Stay in touch
 
 - Author - [Mateusz Przewoźnik]
 - Author - [Jakub Bryniarski]
-
-## License
-
-PHP is [MIT licensed](LICENSE).
