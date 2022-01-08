@@ -4,7 +4,7 @@
 </p>
 
 ## Description
-## Cel Projektu
+## Project Target
 - Celem projektu jest umożliwienie wypożyczania ulubionych filmów w internecie.
 
 Projekt wypożyczalni. Zasady działania:
