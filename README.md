@@ -44,13 +44,9 @@ $ https://wypozyczalnia-pwco.herokuapp.com/
 
 ```bash
 # unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+$ ./wypozyczalnia/bin/phpunit test
+# alternative way to tests
+$ ./wypozyczalnia/bin/phpunit --testdox tests
 ```
 
 ## Support
