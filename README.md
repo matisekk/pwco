@@ -25,8 +25,20 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
+Projekt wypożyczalni. Zasady działania:
+- istnieją dwa rodzaje kont: użytkownicy oraz administrator,
+- program zawiera 3 rodzaje informacji:
+• lista możliwych do wypożyczenia filmów (Tytuł filmu, Gatunek, reżyser, czas trwania, ocena w
+skali od 1 do 10, krótki opis filmu, aktorzy, data dodania filmu do kolekcji)
+• lista klientów wypożyczalni ( imię, nazwisko, adres, telefon, data rejestracji)
+• lista wypożyczeń dla danego klienta (Dane klienta, Tytuł filmu, data i godzina wypożyczenia,
+data i godzina planowanego zwrotu, data i godzina faktycznego zwrotu)
+- każdy klient może wypożyczyć maksymalnie 3 filmy naraz. Film wypożyczany jest na okres 2 dni.
+- zwroty wypożyczeń obsługuje administrator
+- administrator ma możliwość dodawania nowych filmów, usuwania ich oraz modyfikowania
+- administrator ma możliwość dodawania nowych użytkowników, usuwania ich oraz modyfikowania
+- rejestracja i logowanie
+- brak możliwości usunięcia użytkownika z aktywnym wypożyczeniem
 ## Installation
 
 ```bash
