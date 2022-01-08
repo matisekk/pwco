@@ -49,13 +49,15 @@ $ php composer-setup.php --install-dir=bin --filename=composer
 
 ```bash
 # development
-$ git clone
 
-# watch mode
-$ npm run start:dev
+# XAMPP
+$ git clone htdocs
 
-# production mode
-$ npm run start:prod
+# open your app
+$ localhost/wypozyczalnia/index.php
+
+# production heroku
+$ https://wypozyczalnia-pwco.herokuapp.com/
 ```
 
 ## Test
