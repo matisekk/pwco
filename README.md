@@ -53,7 +53,7 @@ $ ./wypozyczalnia/bin/phpunit --testdox test
 
 ## Support
 
-PHP SUPPORT. If you'd like to join them, please https://www.php.net/support.php.
+PHP SUPPORT. If you'd like to join them, please visit https://www.php.net/support.php.
 
 ## Stay in touch
 
