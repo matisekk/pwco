@@ -3,8 +3,6 @@
   <a href="https://repository-images.githubusercontent.com" target="blank"><img src="https://repository-images.githubusercontent.com/448045/f7709980-bb45-11e9-8bdd-10f7c50787fc" width="320" alt="PHPUNIT Logo" /></a>
 </p>
 
-[circleci-image]: https://repository-images.githubusercontent.com/448045/f7709980-bb45-11e9-8bdd-10f7c50787fc
-[circleci-url]: https://repository-images.githubusercontent.com/448045/f7709980-bb45-11e9-8bdd-10f7c50787fc
 
   <p align="center">A progressive <a href="https://repository-images.githubusercontent.com" target="_blank">PHP</a> framework for building efficient and scalable server-side applications.</p>
     <p align="center">
